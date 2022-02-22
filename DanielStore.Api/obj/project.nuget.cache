@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wxW8vajumvKd+SibeeXLNYWSGn1F4D5f6hYAnREskolvpV7NBtMiG9GJah+7jVVrorjQtxX4dUA9qHhrk5NZAA==",
+  "success": true,
+  "projectFilePath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Api\\DanielStore.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\freit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
