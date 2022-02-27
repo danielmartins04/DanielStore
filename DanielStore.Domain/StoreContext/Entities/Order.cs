@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using DanielStore.Domain.StoreContext.Enums;
 using System.Linq;
+using FluentValidator;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
-    public class Order
+    public class Order : Notifiable
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
@@ -39,8 +40,11 @@ namespace DanielStore.Domain.StoreContext.Entities
         // Criar um pedido
         public void Place()
         { 
-            // Número do pedido
+            // Gera número do pedido
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
+            if (_items.Count == 0)
+                AddNotification("Order", "Este pedido não possui itens.");
+
         }
 
         // Pagar um pedido

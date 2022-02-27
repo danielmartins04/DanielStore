@@ -20,12 +20,15 @@ namespace DanielStore.Tests
             var impressora = new Product("Impressora", "Impressora", "image.png", 400.90M, 1);
 
             var order = new Order(c);
-            order.AddItem(new OrderItem(mouse, 5));
-            order.AddItem(new OrderItem(teclado, 3));
-            order.AddItem(new OrderItem(impressora, 2));
+            // order.AddItem(new OrderItem(mouse, 5));
+            // order.AddItem(new OrderItem(teclado, 3));
+            // order.AddItem(new OrderItem(impressora, 2));
 
             // Pedido realizado
             order.Place();
+
+            // Verificar se o pedido é válido
+            var valid = order.IsValid;
 
             // Simulação do pagamento
             order.Pay();

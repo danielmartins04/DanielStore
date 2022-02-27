@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WWln9J61oa7ycdBvBl6ltpvYRdwZOnEVH7rYXEznBzXFBRLmwQRDKnsUcP9ZUMTdkz1sI6KJ/v0dQo0Zqy7b2A==",
+  "dgSpecHash": "j4rjqHC+GmQq9KZ+1QfFC7ieFNZmPB54vi4AvQyOm/WMRm/kmPG36SCjZAVJ3vtIWQtfjju2F/gwO3WvytwPTw==",
   "success": true,
   "projectFilePath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Tests\\DanielStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\freit\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
+    "C:\\Users\\freit\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\freit\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\microsoft.net.test.sdk.16.9.4.nupkg.sha512",

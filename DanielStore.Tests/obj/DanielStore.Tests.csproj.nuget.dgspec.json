@@ -4,6 +4,67 @@
     "C:\\developer\\dotnet\\DanielStore\\DanielStore.Tests\\DanielStore.Tests.csproj": {}
   },
   "projects": {
+    "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\DanielStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\DanielStore.Domain.csproj",
+        "projectName": "DanielStore.Domain",
+        "projectPath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\DanielStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\freit\\.nuget\\packages\\",
+        "outputPath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\freit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\developer\\dotnet\\DanielStore\\DanielStore.Tests\\DanielStore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +89,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\DanielStore.Domain.csproj": {
+                "projectPath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\DanielStore.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
