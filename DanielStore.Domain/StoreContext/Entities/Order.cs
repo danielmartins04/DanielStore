@@ -64,6 +64,7 @@ namespace DanielStore.Domain.StoreContext.Entities
                     count = 1;
                     deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
                 }
+                
                 count++;
             }
 
