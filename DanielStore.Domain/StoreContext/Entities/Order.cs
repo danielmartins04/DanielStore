@@ -32,6 +32,15 @@ namespace DanielStore.Domain.StoreContext.Entities
             _items.Add(item);
         }
 
+        public void AddItem(Product product, decimal quantity)
+        {
+            if (product.QuantityOnHand < quantity)
+                AddNotification("OrderItem", $"Produto {product.Title} não posssui {quantity} itens em estoque");
+
+            var item = new OrderItem(product, quantity);
+            _items.Add(item);
+        }
+
         public void AddDelivery(Delivery delivery) 
         {
             _deliveries.Add(delivery);
