@@ -5,7 +5,7 @@ using FluentValidator;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
-    public class Customer : Notifiable
+    public class Customer
     {
         private readonly IList<Address> _addresses;
 

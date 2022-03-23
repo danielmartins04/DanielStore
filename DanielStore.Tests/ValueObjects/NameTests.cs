@@ -1,7 +1,7 @@
 using DanielStore.Domain.StoreContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DanielStore.Tests
+namespace DanielStore.Tests.ValueObjects
 {
     [TestClass]
     public class NameTests
