@@ -1,0 +1,12 @@
+C:\developer\dotnet\DanielStore\DanielStore.Shared\bin\Debug\net5.0\DanielStore.Shared.deps.json
+C:\developer\dotnet\DanielStore\DanielStore.Shared\bin\Debug\net5.0\DanielStore.Shared.dll
+C:\developer\dotnet\DanielStore\DanielStore.Shared\bin\Debug\net5.0\ref\DanielStore.Shared.dll
+C:\developer\dotnet\DanielStore\DanielStore.Shared\bin\Debug\net5.0\DanielStore.Shared.pdb
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.csproj.AssemblyReference.cache
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.AssemblyInfoInputs.cache
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.AssemblyInfo.cs
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.csproj.CoreCompileInputs.cache
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.dll
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\ref\DanielStore.Shared.dll
+C:\developer\dotnet\DanielStore\DanielStore.Shared\obj\Debug\net5.0\DanielStore.Shared.pdb

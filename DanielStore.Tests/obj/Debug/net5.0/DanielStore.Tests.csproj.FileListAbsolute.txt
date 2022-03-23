@@ -101,3 +101,5 @@ C:\developer\dotnet\DanielStore\DanielStore.Tests\obj\Debug\net5.0\DanielStore.T
 C:\developer\dotnet\DanielStore\DanielStore.Tests\obj\Debug\net5.0\ref\DanielStore.Tests.dll
 C:\developer\dotnet\DanielStore\DanielStore.Tests\obj\Debug\net5.0\DanielStore.Tests.pdb
 C:\developer\dotnet\DanielStore\DanielStore.Tests\obj\Debug\net5.0\DanielStore.Tests.genruntimeconfig.cache
+C:\developer\dotnet\DanielStore\DanielStore.Tests\bin\Debug\net5.0\DanielStore.Shared.dll
+C:\developer\dotnet\DanielStore\DanielStore.Tests\bin\Debug\net5.0\DanielStore.Shared.pdb

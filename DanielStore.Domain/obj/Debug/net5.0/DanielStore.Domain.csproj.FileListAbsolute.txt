@@ -10,3 +10,6 @@ C:\developer\dotnet\DanielStore\DanielStore.Domain\obj\Debug\net5.0\DanielStore.
 C:\developer\dotnet\DanielStore\DanielStore.Domain\obj\Debug\net5.0\DanielStore.Domain.dll
 C:\developer\dotnet\DanielStore\DanielStore.Domain\obj\Debug\net5.0\ref\DanielStore.Domain.dll
 C:\developer\dotnet\DanielStore\DanielStore.Domain\obj\Debug\net5.0\DanielStore.Domain.pdb
+C:\developer\dotnet\DanielStore\DanielStore.Domain\bin\Debug\net5.0\DanielStore.Shared.dll
+C:\developer\dotnet\DanielStore\DanielStore.Domain\bin\Debug\net5.0\DanielStore.Shared.pdb
+C:\developer\dotnet\DanielStore\DanielStore.Domain\obj\Debug\net5.0\DanielStore.Domain.csproj.CopyComplete

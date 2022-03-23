@@ -1201,6 +1201,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "DanielStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DanielStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DanielStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -4485,10 +4495,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "DanielStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DanielStore.Shared/DanielStore.Shared.csproj",
+      "msbuildProject": "../DanielStore.Shared/DanielStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DanielStore.Shared >= 1.0.0",
       "FluentValidator >= 2.0.2"
     ]
   },
@@ -4520,7 +4536,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\developer\\dotnet\\DanielStore\\DanielStore.Shared\\DanielStore.Shared.csproj": {
+              "projectPath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Shared\\DanielStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

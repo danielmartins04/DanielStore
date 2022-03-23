@@ -1677,6 +1677,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "DanielStore.Shared": "1.0.0",
           "FluentValidator": "2.0.2"
         },
         "compile": {
@@ -1684,6 +1685,16 @@
         },
         "runtime": {
           "bin/placeholder/DanielStore.Domain.dll": {}
+        }
+      },
+      "DanielStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DanielStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DanielStore.Shared.dll": {}
         }
       }
     }
@@ -6145,6 +6156,11 @@
       "type": "project",
       "path": "../DanielStore.Domain/DanielStore.Domain.csproj",
       "msbuildProject": "../DanielStore.Domain/DanielStore.Domain.csproj"
+    },
+    "DanielStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DanielStore.Shared/DanielStore.Shared.csproj",
+      "msbuildProject": "../DanielStore.Shared/DanielStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
