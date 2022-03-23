@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using DanielStore.Domain.StoreContext.ValueObjects;
 using System.Linq;
-using FluentValidator;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
