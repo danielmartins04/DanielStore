@@ -1,8 +1,8 @@
-using DanielStore.Shared.Commands;
 using FluentValidator;
+using DanielStore.Shared.Commands;
 using FluentValidator.Validation;
 
-namespace DanielStore.Domain.StoreContext.CustomerCommands.Inputs
+namespace DanielStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
 {
     public class CreateCustomerCommand : Notifiable, ICommand
     {
