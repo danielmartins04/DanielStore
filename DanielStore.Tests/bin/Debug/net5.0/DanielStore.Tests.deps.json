@@ -9,6 +9,7 @@
       "DanielStore.Tests/1.0.0": {
         "dependencies": {
           "DanielStore.Domain": "1.0.0",
+          "FluentValidator": "2.0.2",
           "MSTest.TestAdapter": "2.2.3",
           "MSTest.TestFramework": "2.2.3",
           "Microsoft.NET.Test.Sdk": "16.9.4",
@@ -1098,6 +1099,9 @@
         }
       },
       "DanielStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "runtime": {
           "DanielStore.Shared.dll": {}
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NQnev4NgutgX+rIs9SpxSPD47x1+6Aun8dwD1VUG1dNy+QFFm3XHAbtfPCUl5fbsEfd5c9+xnHmAsDoXYK1KgQ==",
+  "dgSpecHash": "BlTA8m6AYXh8C+ZmDQlPBNnScysIqkszl5eqyj4HiKuSI2fpVs61gGR2P+Z/q8z/tGlUWDNLxokyLe0N9flVXg==",
   "success": true,
   "projectFilePath": "C:\\developer\\dotnet\\DanielStore\\DanielStore.Domain\\DanielStore.Domain.csproj",
   "expectedPackageFiles": [

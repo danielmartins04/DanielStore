@@ -1,9 +1,9 @@
 using DanielStore.Domain.StoreContext.Enums;
-using FluentValidator;
+using DanielStore.Shared.Entities;
 
 namespace DanielStore.Domain.StoreContext.ValueObjects 
 {
-    public class Address : Notifiable
+    public class Address : Entity
     {
         public Address(
             string street,

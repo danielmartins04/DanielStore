@@ -1,0 +1,12 @@
+C:\developer\dotnet\DanielStore\DanielStore.Infra\bin\Debug\net5.0\DanielStore.Infra.deps.json
+C:\developer\dotnet\DanielStore\DanielStore.Infra\bin\Debug\net5.0\DanielStore.Infra.dll
+C:\developer\dotnet\DanielStore\DanielStore.Infra\bin\Debug\net5.0\ref\DanielStore.Infra.dll
+C:\developer\dotnet\DanielStore\DanielStore.Infra\bin\Debug\net5.0\DanielStore.Infra.pdb
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.csproj.AssemblyReference.cache
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.AssemblyInfoInputs.cache
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.AssemblyInfo.cs
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.csproj.CoreCompileInputs.cache
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.dll
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\ref\DanielStore.Infra.dll
+C:\developer\dotnet\DanielStore\DanielStore.Infra\obj\Debug\net5.0\DanielStore.Infra.pdb

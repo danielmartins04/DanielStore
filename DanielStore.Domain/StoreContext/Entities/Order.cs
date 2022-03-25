@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using DanielStore.Domain.StoreContext.Enums;
 using System.Linq;
-using FluentValidator;
+using DanielStore.Shared.Entities;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
-    public class Order : Notifiable
+    public class Order : Entity
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;

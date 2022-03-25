@@ -1,8 +1,8 @@
-using FluentValidator;
+using DanielStore.Shared.Entities;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
-    public class Product : Notifiable
+    public class Product : Entity
     {
         public Product(
             string title,

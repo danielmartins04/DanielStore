@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using DanielStore.Domain.StoreContext.ValueObjects;
 using System.Linq;
-using FluentValidator;
+using DanielStore.Shared.Entities;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
-    public class Customer : Notifiable
+    public class Customer : Entity
     {
         private readonly IList<Address> _addresses;
 

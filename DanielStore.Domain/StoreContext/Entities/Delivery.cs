@@ -1,9 +1,10 @@
 using System;
 using DanielStore.Domain.StoreContext.Enums;
+using DanielStore.Shared.Entities;
 
 namespace DanielStore.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery : Entity
     {
         public Delivery(DateTime estimatedDeliveryDate)
         {

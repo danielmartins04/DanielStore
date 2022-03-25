@@ -1205,6 +1205,9 @@
       "DanielStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/DanielStore.Shared.dll": {}
         },

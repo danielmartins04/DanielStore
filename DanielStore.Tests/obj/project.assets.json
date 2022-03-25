@@ -1690,6 +1690,9 @@
       "DanielStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/DanielStore.Shared.dll": {}
         },
@@ -6166,6 +6169,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DanielStore.Domain >= 1.0.0",
+      "FluentValidator >= 2.0.2",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -6217,6 +6221,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "MSTest.TestAdapter": {
             "target": "Package",
             "version": "[2.2.3, )"
