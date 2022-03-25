@@ -12,7 +12,7 @@ namespace DanielStore.Tests.ValueObjects
         public DocumentTests()
         {
             validDocument = new Document("12345678910");
-            invalidDocument = new Document("06507398330");
+            invalidDocument = new Document("84438437059");
         }
 
         [TestMethod]
