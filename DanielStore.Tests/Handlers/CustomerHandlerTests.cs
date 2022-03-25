@@ -7,6 +7,7 @@ namespace DanielStore.Tests.Handlers
     [TestClass]
     public class CustomerHandlerTests
     {
+        [TestMethod]
         public void ShouldRegisterCustomerWhenCommandIsValid()
         {
             var command = new CreateCustomerCommand();
@@ -17,6 +18,10 @@ namespace DanielStore.Tests.Handlers
             command.Phone = "992636655";
 
             var handler = new CustomerHandler(new FakeCustomerRepository(), new FakeEmailService());
+            var result = handler.Handle(command);
+
+            Assert.AreNotEqual(null, result);
+            Assert.AreEqual(true, handler.IsValid);
         }
     }
 }
