@@ -1,4 +1,4 @@
-using DanielStore.Domain.StoreContext.CustomerCommands.Inputs;
+using DanielStore.Domain.StoreContext.Commands.CustomerCommands.Inputs;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DanielStore.Tests.Commands

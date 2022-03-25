@@ -1,9 +1,11 @@
 using System;
 using DanielStore.Domain.StoreContext.Enums;
+using DanielStore.Shared.Commands;
+using FluentValidator;
 
 namespace DanielStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
 {
-    public class AddAddressCommand
+    public class AddAddressCommand : Notifiable, ICommand
     {
         public Guid Id { get; set; }
         public string Street { get; private set; }
@@ -15,5 +17,10 @@ namespace DanielStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
         public string Country { get; private set; }
         public string ZipCode { get; private set; }
         public EAddressType Type { get; private set; }
+
+        public bool Valid()
+        {
+            return IsValid;
+        }
     }
 }
