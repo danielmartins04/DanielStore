@@ -1,6 +1,7 @@
 using System.Data;
 using System.Linq;
 using DanielStore.Domain.StoreContext.Entities;
+using DanielStore.Domain.StoreContext.Queries;
 using DanielStore.Domain.StoreContext.Repositories;
 using DanielStore.Infra.StoreContext.DataContexts;
 using Dapper;
@@ -34,6 +35,17 @@ namespace DanielStore.Infra.StoreContext.Repositories
                 .Query<bool>(
                     "spCheckEmail",
                     new { Email = email },
+                    commandType: CommandType.StoredProcedure)
+                .FirstOrDefault();
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCountResult(string document)
+        {
+            return _context
+                .Connection
+                .Query<CustomerOrdersCountResult>(
+                    "spGetCustomerOrdersCount",
+                    new { Document = document },
                     commandType: CommandType.StoredProcedure)
                 .FirstOrDefault();
         }
