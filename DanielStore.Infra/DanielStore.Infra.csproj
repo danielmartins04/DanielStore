@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DanielStore.Shared\DanielStore.Shared.csproj" />
+    <ProjectReference Include="..\DanielStore.Domain\DanielStore.Domain.csproj" />
   </ItemGroup>
 
 </Project>
